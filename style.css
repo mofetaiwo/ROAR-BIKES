@@ -1,0 +1,58 @@
+body{
+    background-image: linear-gradient(red, yellow);
+}
+
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    
+}
+
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards{
+    background-color: rgb(47, 198, 33);
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+    background-color: rgb(227, 58, 137);
+    width: 30%;
+}
+
+.card2{
+    background-color: rgb(146, 78, 109);
+    width: 30%;
+}
+
+.card3{
+    background-color: rgb(233, 138, 183);
+    width: 30%;
+}
+
+.herobox1{
+    flex: 2;
+}
+
+.herobox2{
+    flex: 1;
+}
